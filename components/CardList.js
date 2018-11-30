@@ -6,12 +6,12 @@ import Card from './Card';
 
 export default class CardList extends React.Component {
     renderItem = ({ item: { id, author } }) => (
-        <Card
-            fullname={author}
-            image={{
-                uri: getImageFromId(id),
-            }}
-        />
+            <Card
+                fullname={author}
+                image={{
+                    uri: getImageFromId(id),
+                }}
+            />
     );
 
     render() {
