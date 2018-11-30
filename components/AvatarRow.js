@@ -26,8 +26,7 @@ export default function AuthorRow({ fullname, linkText, onPressLinkText }) {
                 </TouchableOpacity>
             )}
         </View>
-        );
-    }
+    );
 }
 
 const styles = StyleSheet.create({
@@ -36,6 +35,7 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         alignItems: 'center',
         paddingHorizontal: 10,
+        //backgroundColor:'#666',
     },
     text: {
         flex: 1,
